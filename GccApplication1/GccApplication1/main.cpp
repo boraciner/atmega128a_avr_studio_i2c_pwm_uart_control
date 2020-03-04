@@ -228,7 +228,7 @@ int main (void)
 	DDRB = 0b10110000;
 	
 	PORTB = 0b10000000;
-	
+	//bora
 	USART_Init();
 	initInterrupt4();
 	initTimer1();
